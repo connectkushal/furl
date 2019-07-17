@@ -17,8 +17,17 @@ $ composer require connectkushal/furl
 
 # Usage
 
-# Feature Request and Support
-If you need any other features of Curl or Process, you can add to [Wishlist.md](https://github.com/connectkushal/furl/Wishlist.md) by send a PR.
+# TODO / Wishlist
+
+- [ ] Update README.md#Usage
+- [ ] Setup validation
+- [ ] Add basic validation
+- [ ] Setup testing
+- [ ] Add basic tests
+- [ ] Documentation
+- [ ] Async
+
+# Support
 
 If you need help or have any questions you can:
 * [Create an issue here](https://github.com/connectkushal/furl/issues/new)
