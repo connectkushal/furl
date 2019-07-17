@@ -1,6 +1,6 @@
 {
     "name": "connectkushal/furl",
-    "description": "A library to write fluent curl in php, with laravel framework integration out of the box",
+    "description": "A library to build and run curl command fluently from php, with laravel framework integration out of the box.",
     "type": "library",
     "require": {
         "symfony/process": "^4.3"
@@ -14,17 +14,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "Connectkushal\\Furl": ""
+            "Connectkushal\\Furl\\": ""
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Connectkushal\\Furl\\Laravel\\FurlServiceProvider"
+                "Connectkushal\\Furl\\Laravel\\ServiceProvider"
             ],
             "aliases": {
-                "Furl": "Connectkushal\\Furl\\Laravel\\FurlFacade"
+                "Furl": "Connectkushal\\Furl\\Laravel\\Facade"
             }
         }
     }

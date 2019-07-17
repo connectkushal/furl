@@ -3,7 +3,7 @@
 
 # What is this?
 
-A library for building and running curl command fluently from php. Integration with laravel framework is out of the box. It is created as a basic wrapper for Curl and Process, a Symfony component for command line, based on what I needed in a few projects.
+A library to build and run curl command fluently from php. Integration with laravel framework is out of the box. It is created as a basic wrapper for Curl and Process, a Symfony component for command line, based on what I needed in a few projects.
 
 # Requirements
 * PHP 7.1 or higher 
@@ -19,7 +19,7 @@ $ composer require connectkushal/furl
 
 # TODO / Wishlist
 
-- [ ] Update README.md#Usage
+- [ ] Add README.md#Usage
 - [ ] Setup validation
 - [ ] Add basic validation
 - [ ] Setup testing
