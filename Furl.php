@@ -8,7 +8,7 @@ use Symfony\Component\Process\Process;
 Class Furl extends CurlBuilder
 {
 
-    public output;
+    public $output;
 
     public function send()
     {
