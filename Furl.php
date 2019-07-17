@@ -19,7 +19,7 @@ Class Furl extends CurlBuilder
         return $process;
     }
 
-    public function process($command = "")
+    public function process($command)
     {
         $procress = new Process($command);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Connectkushal\Furl
+namespace Connectkushal\Furl;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
