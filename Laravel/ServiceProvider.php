@@ -1,6 +1,6 @@
 <?php
 
-namespace Connectkushal\Furl;
+namespace Connectkushal\Furl\Laravel;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

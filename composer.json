@@ -21,10 +21,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Connectkushal\\Furl\\ServiceProvider"
+                "Connectkushal\\Furl\\Laravel\\ServiceProvider"
             ],
             "aliases": {
-                "Furl": "Connectkushal\\Furl\\Facade"
+                "Furl": "Connectkushal\\Furl\\Laravel\\Facade"
             }
         }
     }
