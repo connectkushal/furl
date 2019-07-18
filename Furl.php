@@ -5,9 +5,8 @@ namespace Connectkushal\Furl;
 //use Connectkushal\Furl\CurlBuilder;
 use Symfony\Component\Process\Process;
 
-Class Furl extends CurlBuilder
+class Furl extends CurlBuilder
 {
-
     public $output;
 
     public function send()

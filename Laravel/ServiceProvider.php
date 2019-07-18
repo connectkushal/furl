@@ -21,8 +21,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('furl', function()
-        {
+        $this->app->bind('furl', function () {
             return new \Connectkushal\Furl\Furl;
         });
     }

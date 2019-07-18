@@ -20,6 +20,7 @@ $ composer require connectkushal/furl
 # TODO / Wishlist
 
 - [ ] Add README.md#Usage
+- [ ] Add Exceptions
 - [ ] Setup validation
 - [ ] Add basic validation
 - [ ] Setup testing

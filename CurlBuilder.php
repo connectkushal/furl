@@ -2,9 +2,8 @@
 
 namespace Connectkushal\Furl;
 
-Class CurlBuilder
+class CurlBuilder
 {
-    
     public $headers = [];
     public $method;
     public $data=[];
@@ -51,8 +50,7 @@ Class CurlBuilder
 
     public function json($setJson=true)
     {
-        if($setJson)
-        {
+        if ($setJson) {
             $this->contentType('application/json');
         }
 
@@ -72,8 +70,7 @@ Class CurlBuilder
 
         $curl_headers = "";
 
-        foreach($this->headers as $foo=>$bar)
-        {
+        foreach ($this->headers as $foo=>$bar) {
             $curl_headers=$curl_headers."-H \"".$foo.": ".$bar."\" " ;
         }
 
@@ -114,8 +111,7 @@ Class CurlBuilder
 
         $curl_data = "";
 
-        if(!empty($this->data))
-        {
+        if (!empty($this->data)) {
             $data_json = json_encode($this->data);
 
             $curl_data = "-d '".$data_json."' ";
@@ -154,13 +150,11 @@ Class CurlBuilder
 
     public function curlUrl()
     {
-        if(!$this->url && $this->baseUrl && $this->route)
-        {
+        if (!$this->url && $this->baseUrl && $this->route) {
             $this->url = $this->baseUrl.$this->route;
         }
 
         //dd($this->url);
         return $this->url;
     }
-
 }
